@@ -38,8 +38,10 @@ If you are using Ubuntu Linux, the packages can be installed using:
 ### Update your environmental variables
 
 This will enable you to run MIDAS scripts:  
-`export PYTHONPATH=$PYTHONPATH:/path/to/MIDAS`  
-`export PATH=$PATH:/path/to/MIDAS/scripts` 
+```
+export PYTHONPATH=$PYTHONPATH:/path/to/MIDAS
+export PATH=$PATH:/path/to/MIDAS/scripts
+```
 
 Be sure to replace '/path/to' with the appropriate path on your system  
 Add these commands to your .bash_profile to avoid entering the commands in the future
@@ -49,8 +51,10 @@ You should be able to enter these commands into your terminal without getting an
 `run_midas.py -h`
 
 For more complete testing, run:   
-`cd /path/to/MIDAS`
-`python test/test_midas.py -f`
+```
+cd /path/to/MIDAS
+python test/test_midas.py -f
+```
 
 Be sure to replace '/path/to' with the appropriate path on your system.
 ### Update MIDAS
